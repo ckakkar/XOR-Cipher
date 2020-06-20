@@ -9,7 +9,7 @@ using namespace std;
 class cipher
 {
 private:
-    char key[MSG_LENGTH]={'1','1','1','1','0','0','1','0'}; //Key can anything of our choosing. 
+    char key[MSG_LENGTH]={'1','1','1','1','0','0','1','0'}; //Key can be anything of our choosing. 
     unsigned char original;
     unsigned char encoded;
     unsigned char decoded;
